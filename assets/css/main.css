@@ -3783,3 +3783,122 @@ input, select, textarea {
 			}
 
 		}
+
+
+
+/* Imagen de Sobre el evento */
+#intro .spotlight .image {
+    width: 220px;
+    height: 220px;
+    min-width: 220px;
+    border-radius: 12px;
+    padding: 0;
+    overflow: hidden;
+}
+
+#intro .spotlight .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0;
+}
+
+/* Adaptación para celulares */
+@media screen and (max-width: 736px) {
+    #intro .spotlight .image {
+        width: 180px;
+        height: 180px;
+        min-width: 180px;
+    }
+}
+
+
+/* ====================================
+   PALETA CHANCHO FEST 2026
+   Rojo suave y tonos cálidos
+==================================== */
+
+/* Fondo exterior de la página */
+body {
+    background: linear-gradient(
+        135deg,
+        #A85A5A,
+        #C98282,
+        #E5B7A7
+    );
+    color: #493737;
+}
+
+/* Encabezado */
+#header h1 {
+    color: #FFFFFF;
+}
+
+#header p {
+    color: #FFF8F4;
+}
+
+/* Menú: conservar el cuadro blanco */
+#nav {
+    background: #FFFFFF;
+}
+
+/* Enlaces del menú */
+#nav ul li a {
+    color: #493737;
+}
+
+/* Sección activa al desplazarse */
+#nav ul li a.active {
+    background: #F3DEDE;
+    color: #8F4545;
+}
+
+/* Efecto al pasar el mouse */
+#nav ul li a:hover {
+    background: #F9EEEE;
+    color: #8F4545;
+}
+
+/* Cuadro principal de contenido */
+#main {
+    background: #FFFFFF;
+    color: #493737;
+}
+
+/* Títulos */
+#main h2,
+#main h3 {
+    color: #A85A5A;
+}
+
+/* Líneas decorativas de Stellar */
+#main .major h2:after {
+    background: linear-gradient(
+        90deg,
+        #A85A5A,
+        #DCA6A6
+    );
+}
+
+/* Botones principales */
+#main .button.primary {
+    background: #A85A5A;
+    color: #FFFFFF !important;
+}
+
+/* Botones secundarios */
+#main .button:not(.primary) {
+    color: #A85A5A !important;
+    box-shadow: inset 0 0 0 1px #C98282;
+}
+
+/* Pie de página */
+#footer {
+    color: #FFF8F4;
+}
+
+#footer h2,
+#footer a {
+    color: #FFFFFF;
+}
