@@ -2135,6 +2135,7 @@ input, select, textarea {
 
 		.image.avatar {
 			border-radius: 100%;
+			border: #eeee solid 2px;
 		}
 
 			.image.avatar:before {
@@ -2575,31 +2576,15 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
 		display: flex;
-		-moz-flex-direction: column;
-		-webkit-flex-direction: column;
-		-ms-flex-direction: column;
 		flex-direction: column;
-		-moz-align-items: -moz-flex-end;
-		-webkit-align-items: -webkit-flex-end;
-		-ms-align-items: -ms-flex-end;
 		align-items: flex-end;
-		-moz-justify-content: space-between;
-		-webkit-justify-content: space-between;
-		-ms-justify-content: space-between;
 		justify-content: space-between;
 		background-color: #1f1815;
-		background-attachment: scroll, scroll, scroll;
-		background-image:
-			linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.75)),
-			url("images/overlay.png"),
-			url("../../images/chancho-fest-1.jpeg");
-		background-position: top left, top left, top left;
-		background-repeat: no-repeat, repeat, no-repeat;
-		background-size: auto, auto, 150%;
+		background-image: url("../../images/chancho-fest-1.jpeg");
+		background-position: top left;
+		background-repeat: no-repeat;
+		background-size: 150%;
 		color: rgba(255, 255, 255, 0.95);
 		height: 100%;
 		left: 0;
@@ -2610,7 +2595,24 @@ input, select, textarea {
 		width: 35%;
 	}
 
+	/* Capa de oscurecimiento: no se mueve con el parallax */
+	#header::before {
+		content: "";
+		position: absolute;
+		inset: 0; /* top/right/bottom/left: 0 */
+		background-image:
+			linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.75)),
+			url("images/overlay.png");
+		background-repeat: no-repeat, repeat;
+		background-size: auto, auto;
+		pointer-events: none; /* no bloquea clics en los links del header */
+	}
+
+
+
 		#header > * {
+			position: relative;
+			z-index: 1;
 			-moz-flex-shrink: 0;
 			-webkit-flex-shrink: 0;
 			-ms-flex-shrink: 0;
