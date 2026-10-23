@@ -2581,7 +2581,7 @@ input, select, textarea {
 		align-items: flex-end;
 		justify-content: space-between;
 		background-color: #1f1815;
-		background-image: url("../../images/chancho-fest-1.jpeg");
+		background-image: url("../../images/chancho-fest-04.jpeg");
 		background-position: top left;
 		background-repeat: no-repeat;
 		background-size: 150%;
@@ -3224,3 +3224,46 @@ input, select, textarea {
 			}
 
 	}
+
+
+
+
+
+
+/* Modificaciones/Adiciones a la plantilla */
+
+/* Las 3 siguientes son para un efecto mozaico en las imagenes de la galería */
+.gallery {
+	column-count: 2;
+	column-gap: 1.5em;
+}
+
+.gallery .work-item {
+	break-inside: avoid; /* que un article no se parta entre columnas */
+	margin-bottom: 1.5em;
+	width: 100%;
+}
+
+.gallery .work-item a {
+	margin-bottom: 8px;
+}
+
+.gallery .work-item h3 {
+	margin-bottom: 0;
+}
+
+@media (max-width: 1400px) {
+	#header {
+		background-size: 220%;
+	}
+}
+
+@media (max-width: 980px) {
+	#header {
+		background-size: 100%;
+	}
+}
+
+@media (max-width: 480px) {
+	.gallery { column-count: 1; }
+}
