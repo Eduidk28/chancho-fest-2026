@@ -1,113 +1,124 @@
-# Chancho Fest 2026
+# 🌭 Chancho Fest 2026
 
-Landing page informativa desarrollada para presentar los principales atractivos del **Chancho Fest 2026**, un evento gastronómico realizado el 3 de octubre de 2026 en el Parque Samanes de Guayaquil, Ecuador.
+Landing page informativa desarrollada para presentar los principales atractivos del **Chancho Fest 2026**, un evento gastronómico realizado el **3 de octubre de 2026** en el Parque Samanes de Guayaquil, Ecuador.
 
-Este proyecto forma parte de la asignatura **Desarrollo de Aplicaciones Web y Móviles** de la Escuela Superior Politécnica del Litoral (ESPOL).
+Este proyecto fue desarrollado como parte de la asignatura **Desarrollo de Aplicaciones Web y Móviles** de la Escuela Superior Politécnica del Litoral (ESPOL).
 
-## Objetivo del proyecto
+## 📌 Objetivo del proyecto
 
-Desarrollar una página web informativa, visualmente atractiva y adaptable a diferentes dispositivos, que permita a los usuarios conocer las características del Chancho Fest 2026.
+Diseñar y desarrollar una página web informativa, visualmente atractiva y adaptable a diferentes dispositivos, que permita a los usuarios conocer los principales atractivos del Chancho Fest 2026.
 
-La página busca destacar la gastronomía, el ambiente del festival y la experiencia de los visitantes mediante información organizada y contenido fotográfico.
+La propuesta busca destacar la gastronomía, el ambiente del festival y la experiencia de sus visitantes mediante contenido organizado, fotografías y recursos visuales.
 
-## Integrantes
+## 👥 Integrantes
 
-- Steven Noriega
-- Danilo García
+- **Steven Noriega**
+- **Danilo García**
 
-**Universidad:** Escuela Superior Politécnica del Litoral (ESPOL)  
-**Facultad:** Facultad de Ingeniería en Electricidad y Computación  
-**Asignatura:** Desarrollo de Aplicaciones Web y Móviles  
-**Período académico:** 2026 - Segundo PAO
+| Información académica | Detalle |
+|---|---|
+| Universidad | Escuela Superior Politécnica del Litoral (ESPOL) |
+| Facultad | Facultad de Ingeniería en Electricidad y Computación |
+| Asignatura | Desarrollo de Aplicaciones Web y Móviles |
+| Período académico | 2026 - Segundo PAO |
 
-## Tecnologías utilizadas
+## 🛠️ Tecnologías y herramientas
 
-- **HTML5:** estructura y contenido de la página.
-- **CSS3:** estilos, colores y diseño adaptable.
-- **JavaScript:** funcionalidades e interacciones de la plantilla.
-- **Git:** control de versiones.
-- **GitHub:** almacenamiento y colaboración en el proyecto.
-- **Visual Studio Code:** editor de código.
+| Tecnología | Utilización |
+|---|---|
+| HTML5 | Estructura y contenido de la página. |
+| CSS3 | Estilos, colores y diseño adaptable. |
+| JavaScript | Funcionalidades e interacciones de la plantilla. |
+| Git | Control de versiones. |
+| GitHub | Almacenamiento y colaboración. |
+| Visual Studio Code | Entorno de edición y desarrollo. |
 
-## Plantilla utilizada
+## 🎨 Plantilla y diseño
 
-El proyecto utiliza **Strata**, una plantilla de HTML5 UP.
+Para el desarrollo del sitio se utilizó **[Strata](https://html5up.net/strata)**, una plantilla de HTML5 UP.
 
-Fue seleccionada por su diseño visual, su estructura adaptable y la posibilidad de presentar fotografías mediante una galería.
+Se seleccionó por su diseño visual, estructura adaptable y capacidad para presentar contenido fotográfico mediante galerías.
 
-La plantilla fue personalizada para adaptarla a la temática gastronómica del Chancho Fest 2026.
+La plantilla fue personalizada para ajustarse a la temática gastronómica del Chancho Fest 2026, incorporando contenido, fotografías y secciones relacionadas con el evento.
 
-**Plantilla original:** https://html5up.net/strata
+## 🌐 Secciones de la página
 
-## Secciones de la página
-
-### Inicio
-
+### 🏠 Inicio
 Presenta el nombre del festival y una introducción general al evento.
 
-### Sobre el evento
+### 🎪 Sobre el evento
+Describe el Chancho Fest 2026, su ubicación y sus principales características.
 
-Explica qué fue el Chancho Fest 2026, dónde se realizó y cuáles fueron sus principales características.
+### 🍖 Gastronomía
+Destaca diferentes preparaciones gastronómicas mediante fotografías y descripciones. También incorpora enlaces a publicaciones relacionadas con el festival.
 
-### Gastronomía
+### 📸 Galería
+Reúne fotografías del festival, sus espacios, puestos gastronómicos y ambiente.
 
-Destaca diferentes preparaciones gastronómicas mediante fotografías y descripciones. Incluye enlaces a publicaciones relacionadas con el evento.
+### 📍 Ubicación
+Proporciona información sobre el Parque Samanes de Guayaquil e incorpora un mapa de referencia.
 
-### Galería
+### ⭐ Experiencia
+Presenta contenido relacionado con la experiencia de los visitantes e incluye un formulario de comentarios.
 
-Presenta fotografías del festival, sus espacios, puestos y ambiente.
+## 📁 Estructura del proyecto
 
-### Ubicación
+```text
+chancho-fest-2026/
+│
+├── assets/
+│   ├── css/
+│   ├── js/
+│   └── sass/
+│
+├── images/
+│
+├── index.html
+├── README.md
+└── LICENSE.txt
+```
 
-Muestra información sobre el Parque Samanes de Guayaquil y un mapa de referencia.
+## 🚀 Instalación y ejecución
 
-### Experiencia
+Para ejecutar el proyecto localmente, sigue estos pasos:
 
-Incluye contenido relacionado con la experiencia de los visitantes y un formulario de comentarios.
+**1. Clonar el repositorio**
 
-## Estructura del proyecto
+```bash
+git clone https://github.com/Eduidk28/chancho-fest-2026.git
+```
 
-**Archivos y carpetas principales:**
+**2. Abrir el proyecto**
 
-- `index.html`: página principal del sitio.
-- `assets/css/`: hojas de estilo.
-- `assets/js/`: archivos JavaScript.
-- `assets/sass/`: archivos fuente de estilos.
-- `images/`: fotografías y recursos gráficos.
-- `README.md`: documentación del proyecto.
-- `LICENSE.txt`: licencia de la plantilla original.
+Abre la carpeta descargada en Visual Studio Code.
 
-## Cómo ejecutar el proyecto
+**3. Ejecutar la página**
 
-1. Clonar el repositorio:
-
-   `git clone https://github.com/Eduidk28/chancho-fest-2026.git`
-
-2. Abrir la carpeta del proyecto en Visual Studio Code.
-3. Abrir el archivo `index.html`.
-4. Ejecutar la página mediante la extensión Live Server o abrir el archivo directamente en un navegador.
+Abre el archivo `index.html` mediante la extensión Live Server o directamente desde un navegador web.
 
 No se requiere instalar dependencias adicionales para visualizar la página.
 
-## Fuentes y recursos
+## 🖼️ Capturas de pantalla
 
-El proyecto utiliza fotografías tomadas durante la visita al festival y material fotográfico complementario procedente de publicaciones relacionadas con el evento.
+En esta sección se pueden incorporar imágenes de las principales vistas del sitio web, como la página de inicio, gastronomía y galería.
+
+<!-- Agregar aquí las capturas del proyecto -->
+
+## 📚 Fuentes y recursos
+
+- [HTML5 UP - Plantilla Strata](https://html5up.net/strata)
+- Turisec - Cobertura del Chancho Fest 2026.
+- Fotografías tomadas durante la visita al festival.
+- Material fotográfico complementario de publicaciones relacionadas con el evento.
 
 Las imágenes externas deben conservar sus créditos correspondientes y utilizarse respetando los derechos de sus autores.
 
-**Fuentes de referencia:**
+## 📄 Licencia y créditos
 
-- HTML5 UP — Strata: https://html5up.net/strata
-- Turisec — Cobertura del Chancho Fest 2026.
+Este proyecto utiliza la plantilla **Strata de HTML5 UP**, cuya licencia y atribuciones originales se encuentran en el archivo `LICENSE.txt`.
 
-## Repositorio
+El desarrollo y la personalización del sitio fueron realizados por los integrantes del proyecto como parte de una actividad académica de ESPOL.
 
-https://github.com/Eduidk28/chancho-fest-2026
+---
 
-## Créditos
-
-Proyecto académico desarrollado por Steven Noriega y Danilo García.
-
-Diseño basado en **Strata by HTML5 UP**, distribuido bajo la licencia Creative Commons Attribution 3.0.
-
-Las fotografías y demás recursos externos pertenecen a sus respectivos autores.
+**Repositorio:** [Chancho Fest 2026](https://github.com/Eduidk28/chancho-fest-2026)
